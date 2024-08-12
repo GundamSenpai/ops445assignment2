@@ -1,0 +1,19 @@
+test_argparse_help (__main__.TestArgs.test_argparse_help)
+duim.py -h returns the required options ... ok
+test_dir_dict_func (__main__.TestDirDict.test_dir_dict_func)
+given mock du input, create_dir_dict returns properly formatted dict ... ok
+test_du_sub (__main__.TestDuSub.test_du_sub)
+du_sub returns a list ... du: cannot read directory '/sys/kernel/tracing': Permission denied
+du: cannot read directory '/sys/kernel/debug': Permission denied
+du: cannot read directory '/sys/fs/pstore': Permission denied
+du: cannot read directory '/sys/fs/bpf': Permission denied
+du: cannot read directory '/sys/fs/fuse/connections/38': Permission denied
+Error running 'du' on /sys: Command '['du', '-d', '1', '/sys']' returned non-zero exit status 1.
+ok
+test_percent (__main__.TestPercent.test_percent)
+percent_to_graph returns correct '##    ' format ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.179s
+
+OK
